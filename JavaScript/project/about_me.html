@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Фёдор Кудрицкий</title>
+    <link rel="stylesheet" href="about_me.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css"
+    />
+  </head>
+  <body>
+    <div class="about_me">
+      <div class="fp">
+        <h1 class="page-header" id="firstheader">
+          Добро пожаловать на мою страницу обо мне
+        </h1>
+        <p class="par">
+          Кудрицкий Фёдор Александрович, 17 лет от роду, коренной житель Минска.
+          С самого детства увлекался спортом, попробовал несколько
+          видов(парусный навсегда в моей душе), люблю игры в компании и сами
+          компании. В школе учился выше среднего и ниже высокого. ЦТ сдано на
+          334 балла, прибегал к помощи репетиторов. В IT вошёл со словами "А
+          почму бы и нет?", довольно быстро увлёкся сферой, после этого выбрал
+          карьеру программиста. На данный момент из увлечений имею различные
+          виды спорта(от шахмат до велосипеда), настольные и компьютерные игры,
+          кино и довольно много чего другого, куда также можно отнести и
+          программирование, люблю есть капусту. Сейчас я рассматриваю создание
+          сайтов как минимум как самый перспективный способ заработка в
+          ближайшее время.
+        </p>
+      </div>
+    </div>
+    <div class="about_me">
+      <h2 class="page-header">Языки программирования, которые я изучаю</h2>
+      <div class="langs">
+        <div class="lang" id="html">
+          <h3 class="header">HTML</h3>
+          <p>
+            "Это вообще не язык программирования!" - подумаете вы. "А он угадал"
+            - следуюцая ваша мысль. Так что же он тут забыл? Я решил отдать ему
+            должное, ведь куда сайт без старого доброго языка разметки? Сегодня
+            я могу свободно оперировать им, хоть иногда и приходится прибегать к
+            помощи браузера.
+          </p>
+        </div>
+        <div class="lang" id="js">
+          <h3 class="header">JS</h3>
+          <p>
+            На данный момент я ставлю его на первое место(из 2) среди изучаемых
+            мной языков программирования. Роль его в современном мире трудно
+            переоценить: как миниум он входит в десятку самых используемых, и
+            это если исключить его библиотеки! Создание хорошего сайта без
+            использования этого языка я не представляю возможным, поэтому
+            планирую и дальше совершенствовать свои навыки.
+          </p>
+        </div>
+        <div class="lang" id="cpp">
+          <h3 class="header">C++</h3>
+          <p>
+            Язык программирования, который похож на JS, поэтому изучать его было
+            не особо сложно. Несмотря на то, что я достиг определённо неплохих
+            успехов в нём, я всё же не вижу в нём своё будующее, возможно только
+            пока что.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="about_me">
+      <h2 class="page-header" id="modhead">
+        Я увлёкся двоичным кодом и создал модуль, работающий с ним. Попробуйте!
+      </h2>
+            <div class= "binary-workspace">
+    <div>
+      <form>
+      <select name="choise" id="choise">
+       <option value="in">Перевод в двоичный код</option>
+        <option value="out">Перевод из двоичного кода</option>
+        <option value="plus">Сложение двоичного кода</option>
+        <option value="minus">Вычитание в двоичном коде</option>
+        <option value="multiply">Умножение в двоичном коде</option>
+        <option value="division">Деление в двоичном коде</option>
+      </select>
+    </div>
+    <p id="alarm">Для перевода в двоичный код введите число в десятичной системе в строку для ввода и нажмите кнопку "вычислить".
+       Мы сможем рассчитать перевод как положительного, так и отрицательного числа, но мы не работаем с дробными числами. Максимальное число для вычислений - 
+       "4294967295", минимальное - "-4294967295"</p>
+      <div class ="texts">
+        <input type="text" name="firsttext" id="firsttext" class="text" maxlength="16" placeholder="Первое текстовое поле">
+        <input type="text" name="secondtext" id="secondtext" class="text" maxlength="16" placeholder="Второе текстовое поле">
+    </div>
+    </form>
+    <div class ="but">
+    <button id="but" class="submit">Вычислить</button>
+    </div>
+    <div class="ansdiv">
+      <p id="answer"></p>
+    </div>
+    </div>
+    </div>
+    <div class="about_me">
+      <h2 class="page-header">Фотки</h2>
+      <p align="center">Несколько удачных кадров(или не очень? решать вам)</p>
+      <div class="langs">
+      <img src="src/hood.jpg" id="hood" class="img">
+      <img src="src/dangerous.jpg" id="dang" class="img">
+      <img src="src/Fedosdekudrille.jpg" id="Fedosdekudrille" class="img">
+      </div>
+    </div>
+    <div class="about_me" id="last">
+      <h2 class="page-header" id="write">Пишите мне, я с радостью отвечу!</h2>
+      <div class= "langs">
+        <img src="src/vk.png" class="icons" id="vk">
+        <img src="src/telegram.jpg" class="icons" id="telegram">
+        <img src="src/mail.png" onclick="window.open('mailto:fedosdekudrille@mail.ru')" class="icons" id="mail">
+      </div>
+    </div>
+    <img class="bottom" id="snow" src="src/snow.png" />
+    <img class="snowman" id="snowman" src="src/snowman.gif" />
+    <div class="popar"></div>
+    <div id="blackscreen" class="blackscreen"></div>
+        <script src="script/BinaryCalculations.js"></script>
+        <script src="script/about_me.js"></script>
+  </body>
+</html>

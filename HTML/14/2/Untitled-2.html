@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<svg width="280" height="180">
+    <rect x="10" y="10" width="50" height="50" fill="red" />
+    <polygon id="myelement" points="95,10 75,60 120,60" fill="yellow" />
+    <animate xlink:href="#myelement" attributeName="fill" from="green" 
+to="orange" dur="5s"/>
+
+    <circle cx="150" cy="35" r="24" fill="url(#MyGradient)" />
+    <linearGradient id = "MyGradient">
+        <stop offset = "30%" stop-color = "violet"/>
+        <stop offset = "70%" stop-color = "yellow"/>
+        </linearGradient>
+
+    <ellipse cx="215" cy="35" rx="35" ry="25" fill="green" />
+
+    <line
+    x1="120" y1="70" x2="10" y2="70" 
+    stroke="red" stroke-width="3"
+  />
+
+  <line
+  x1="120" y1="70" x2="90" y2="90"
+  stroke="red" stroke-width="3"
+/>
+
+<line
+x1="90" y1="90" x2="250" y2="90"
+stroke="red" stroke-width="3" fill="purple"
+/>
+  </svg>
+  

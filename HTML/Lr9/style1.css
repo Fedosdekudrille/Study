@@ -1,0 +1,60 @@
+
+.wrapper {
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows: minmax(30px,auto);
+    grid-gap: 0.5em;
+}
+.headwrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(30px,auto);
+    grid-gap: 0.5em;
+    grid-column: 1/3;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 20px;
+}
+.head1 {
+    grid-column: 1/4;
+}
+.headwrapper > div { 
+    border: solid black 1px;
+    text-align: center;
+}
+.leftwrapper {
+    display: grid;
+    grid-template-columns: 0.04fr 0.73fr 0.73fr;
+    grid-gap: 0.5em;
+    margin-right: 20px;
+}
+.leftwrapper > div {
+    text-align: center;
+    border: 1px solid black;
+}
+.rightwrapper {
+    display: grid;
+    grid-template-columns: 0.73fr 0.73fr 0.04fr;
+    grid-gap: 0.5em;
+    margin-left: 20px;
+}
+.rightwrapper > div {
+    text-align: center;
+    border: 1px solid black;
+}
+.cell3 {
+    grid-row: 1/3;
+}
+.head3 {
+    grid-column: 3;
+    grid-row: 1/3;
+    max-width: 20px;
+    writing-mode: vertical-lr; 
+    text-orientation: upright;
+    justify-self: end;
+}
+.head2 {
+    max-width: 20px;
+    writing-mode: vertical-lr; 
+    text-orientation: upright;
+}

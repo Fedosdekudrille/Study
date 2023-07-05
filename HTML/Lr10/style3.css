@@ -1,0 +1,8 @@
+.men{
+  list-style-type: none;
+}
+div{
+  display: inline-block;
+  border: black solid;
+  padding: 20px;
+}

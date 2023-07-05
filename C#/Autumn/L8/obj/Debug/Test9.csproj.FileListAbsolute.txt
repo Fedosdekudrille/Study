@@ -1,0 +1,8 @@
+C:\Study\C#\Test9\bin\Debug\Test9.exe.config
+C:\Study\C#\Test9\bin\Debug\Test9.exe
+C:\Study\C#\Test9\bin\Debug\Test9.pdb
+C:\Study\C#\Test9\obj\Debug\Test9.csproj.AssemblyReference.cache
+C:\Study\C#\Test9\obj\Debug\Test9.csproj.SuggestedBindingRedirects.cache
+C:\Study\C#\Test9\obj\Debug\Test9.csproj.CoreCompileInputs.cache
+C:\Study\C#\Test9\obj\Debug\Test9.exe
+C:\Study\C#\Test9\obj\Debug\Test9.pdb

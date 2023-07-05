@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lab_8.WIndows.AddOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_8.WIndows"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Add Talon">
+    <Grid  Margin="10">
+        <StackPanel Width="300">
+            <TextBlock HorizontalAlignment="Center" >Имя</TextBlock>
+            <TextBox Text="{Binding CurrentTalon.ClientName}" Name="val" />
+            <TextBlock HorizontalAlignment="Center" >Дата(день часы/минуты)</TextBlock>
+            <TextBox Text="{Binding CurrentTalon.Date}" Name="Date" />
+            <Button Command="{Binding AddTalonCommand}" Click="Button_Click_1">
+                Add
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

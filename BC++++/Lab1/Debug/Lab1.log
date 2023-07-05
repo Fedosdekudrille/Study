@@ -1,0 +1,21 @@
+﻿Сборка начата 09.02.2022 17:06:15.
+Уровень детализации журнала: Normal.     1>Проект "C:\Study\BC++++\Lab1\Lab1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Lab1.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Важные штуки\VS\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Lab1.cpp
+         Lab1.cpp
+     1>C:\Study\BC++++\Lab1\Lab1.cpp(19,39): error C2440: инициализация: невозможно преобразовать "const char [15]" в "char"
+       C:\Study\BC++++\Lab1\Lab1.cpp(19,9): message : Не существует контекста, в котором такое преобразование возможно
+     1>Сборка проекта "C:\Study\BC++++\Lab1\Lab1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Study\BC++++\Lab1\Lab1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Study\BC++++\Lab1\Lab1.cpp(19,39): error C2440: инициализация: невозможно преобразовать "const char [15]" в "char"
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:00.70

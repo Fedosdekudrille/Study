@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css"
+    />
+    <style>
+      #image {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img id="image" src="car.png" width="400px" />
+    </div>
+
+    <script>
+      $("#image").click(function () {
+        $("#image").animate({left: 1000 + "px"}, 2000);
+      });
+    </script>
+  </body>
+</html>

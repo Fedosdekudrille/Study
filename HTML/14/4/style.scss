@@ -1,0 +1,42 @@
+$bgColor: #292727;
+$textColor: #fad405;
+
+.topic {
+	padding: 5px;
+	font-size: 36px;
+	text-align: center;
+}
+
+textPath {
+	fill: $textColor;
+}
+
+#Layer_2 {
+	width: 800px;
+	background-color: $bgColor;
+
+	use {
+		stroke-width: 1px;
+		stroke: #000000;
+	}
+}
+
+.col-1 {
+	fill: #f35c78;
+}
+
+.col-2 {
+	fill: #e77d6d;
+}
+
+.col-3 {
+	fill: #d99b64;
+}
+
+.col-4 {
+	fill: #dee692;
+}
+
+.col-5 {
+	fill: #b1e692;
+}

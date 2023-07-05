@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+        .horizontal_menu li { float: left; list-style-type: none;}
+
+        .horizontal_menu a {
+            border: 1px solid black;
+            padding: 5px 15px 5px 35px;
+            text-decoration: none;
+
+        }
+        .horizontal_menu {
+            display: flex;
+            justify-content: center;
+        }
+        #h2:hover {
+            background: url(facultet.png) no-repeat 0 -30px;
+        }
+        #h3:hover {
+            background: url(facultet.png) no-repeat 0 -60px;
+        }
+        #h4:hover {
+            background: url(facultet.png) no-repeat 0 -90px;
+        }
+
+    </style>
+</head>
+<body>
+<ul class="horizontal_menu">
+    <li><a style="background: url(facultet.png) no-repeat 0 0;">БГТУ</a></li>
+    <li><a id="h2" href="https://it.belstu.by" target="_blank">ИТ</a></li>
+    <li><a id="h3" href="https://it.belstu.by">ПиМ</a></li>
+    <li><a id="h4" href="https://it.belstu.by">ХТиТ</a></li>
+</ul>
+</body>
+</html>

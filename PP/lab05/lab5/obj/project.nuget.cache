@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+8Vd/4FQxU/B3IyJHgD7CUCA85hZxpY0VsU5vOMjWUTPyVrM0NiQPIqJVOV2pXAf3jpDTsJiqIB4FW48k392Zw==",
+  "success": true,
+  "projectFilePath": "C:\\Study\\PP\\lab05\\lab5\\lab5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fedos\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

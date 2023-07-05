@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+        img{
+          width:500px;
+        }
+        div{
+          display: inline-block;
+        }
+        #kaban{
+          margin:100px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="los">
+    <p><span onmouseover="this.style.color = 'red'" onclick="this.style.fontSize='20px'">Олень</span> - животное благородное.</p>
+    <img src="los.jpg" alt="Лося не завезли" id="los" onclick="losechange()">
+    </div>
+    <div id="kaban">
+    <p>Кабан тоже неплох</p>
+    <button onclick="kaban()">Позвать кабана</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

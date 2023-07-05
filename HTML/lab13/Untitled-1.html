@@ -1,0 +1,38 @@
+<html>
+  <body>
+    <h1>Заметка</h1>
+    <div>
+      <b>Имя:</b> <span id="name"></span><br />
+      <b>Курс</b> <span id="kurs"></span><br />
+      <b>Группа:</b> <span id="group"></span> <b>Подруппа:</b>
+      <span id="undergroup"></span>
+    </div>
+
+    <script>
+      txt = "<note>";
+      txt = txt + "<name>Феодор Великий</name>";
+      txt = txt + "<kurs>ИСИТ</kurs>";
+      txt = txt + "<group>1</group>";
+      txt = txt + "<undergroup>1</undergroup>";
+      txt = txt + "</note>";
+
+      if (window.DOMParser) {
+        parser = new DOMParser();
+        xmlDoc = parser.parseFromString(txt, "text/xml");
+      } else {
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async = false;
+        xmlDoc.loadXML(txt);
+      }
+
+      document.getElementById("name").innerHTML =
+        xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+      document.getElementById("kurs").innerHTML =
+        xmlDoc.getElementsByTagName("kurs")[0].childNodes[0].nodeValue;
+      document.getElementById("group").innerHTML =
+        xmlDoc.getElementsByTagName("group")[0].childNodes[0].nodeValue;
+      document.getElementById("undergroup").innerHTML =
+        xmlDoc.getElementsByTagName("undergroup")[0].childNodes[0].nodeValue;
+    </script>
+  </body>
+</html>

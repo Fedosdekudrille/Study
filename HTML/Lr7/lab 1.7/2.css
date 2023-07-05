@@ -1,0 +1,16 @@
+figure{
+    display: inline-block;
+}
+.a{
+    transform: rotateX(55deg);
+}
+.b{
+    transform: rotateY(65deg);
+}
+.c{
+    transform: rotateX(55deg);
+}
+.d{
+    transform: rotateY(-65deg);
+}
+

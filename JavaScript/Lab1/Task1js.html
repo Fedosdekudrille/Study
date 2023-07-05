@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <center>
+      <style media="screen">
+        body{
+          background: url(https://clipart-db.ru/file_content/rastr/background_065.jpg);
+          background-size: 100%;
+        }
+        .but{
+          background-color:Transparent;
+          margin-top: 250px;
+          height:200px;
+          width:500px;
+          font-size: 50px;
+          border-color: #87CEFA;
+        }
+      </style>
+      <title>Задание №1</title>
+    <script type="text/javascript">
+    function fun1 () {
+ alert('Вас приветствует учебный центр');
+ fun2()
+ fun3()
+ fun4()
+}
+function fun2() {
+ x=prompt('Введите Ваше имя:', 'Имя');
+}
+ function fun3() {
+ alert('Здравствуйте, ' + x);
+}
+function fun4() {
+ x=confirm('Хотите стать веб-дизайнером?');
+ if(x==true){
+   alert('Молодец')
+ }
+ else{
+   alert('Теряете время')
+ }
+}
+</script>
+  </head>
+  <body>
+    <input style="color:#FF6347;"  type='button' class="but" value='Начать задание №1' onclick='fun1()'>
+    <p><a href="Task2js.html">Следующее задание</a></p>
+  </body>
+</html>

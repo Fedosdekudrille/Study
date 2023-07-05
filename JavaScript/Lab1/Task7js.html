@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Задание №7</title>
+  <style>
+    input{
+      width: 500px;
+    }
+  </style>
+  <script type="text/javascript">
+    function fun1() {
+      alert('Поиск ошибок');
+      try{
+          df                                //Строка для ошибок
+        alert('Ошибки не найдены');
+      }
+      catch(err){
+        alert('Критическая ошибка')
+      }
+      finally{
+        alert('Завершение работы')
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <center>
+    <input type="button" value="Начать задание №7" onclick='fun1()'>
+    <p><a href="Task1js.html">Первое задание</a></p>
+</body>
+
+</html>

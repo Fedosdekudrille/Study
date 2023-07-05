@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Задание№4</title>
+</head>
+<body>
+  <script type='text/javascript'>
+  let a = new Number(prompt('Введите а: '))
+  let b = +prompt('Введите b: ')
+  document.write('<table border="1" align="center">')
+  document.write('<tr>' + '<td>' + 'Число' + '</td>' + '<td>' + 'Метод' + '</td>' + '<td>' + 'Результат' + '</td>' + '<td>' + 'Описание метода' + '</td>' + '</tr>')
+  document.write('<tr>' + '<td>' + a + '</td>' + '<td>' + 'toExponential' + '</td>' + '<td>' + a.toExponential(2) + '</td>' + '<td>' + 'Представляет число в экспоненциальной форме(2)' + '</td>' + '</tr>')
+  document.write('<tr>' + '<td>' + a + '</td>' + '<td>' + 'toFixed' + '</td>' + '<td>' + a.toFixed(2) + '</td>' + '<td>' + 'Представляет число в форме с фиксированным количеством цифр после точки(2)' + '</td>' + '</tr>')
+  document.write('<tr>' + '<td>' + a + '</td>' + '<td>' + 'toPrecision' + '</td>' + '<td>' + a.toPrecision(6) + '</td>' + '<td>' + 'Представляет число с заданным общим количеством значащих цифр(6)' + '</td>' + '</tr>')
+  document.write('<tr>' + '<td>' + a + '</td>' + '<td>' + 'toString' + '</td>' + '<td>' + a.toString(2) + '</td>' + '<td>' + 'Возвращает строковое представление числа в системе счисления с указанным основанием(2)' + '</td>' + '</tr>')
+  document.write('<tr>' + '<td>' + b + '</td>' + '<td>' + 'toExponential' + '</td>' + '<td>' + b.toExponential(4) + '</td>' + '<td>' + 'Представляет число в экспоненциальной форме(4)' + '</td>' + '</tr>')
+  document.write('<tr>' + '<td>' + b + '</td>' + '<td>' + 'toFixed' + '</td>'+ '<td>' + b.toFixed(4) + '</td>' + '<td>' + 'Представляет число в форме с фиксированным количеством цифр после точки(4)' + '</td>' + '</tr>')
+  document.write('<tr>' + '<td>' + b + '</td>' + '<td>' + 'toPrecision' + '</td>' + '<td>' + b.toPrecision(4) + '</td>' + '<td>' + 'Представляет число с заданным общим количеством значащих цифр(4)' + '</td>' + '</tr>')
+  document.write('<tr>' + '<td>' + b + '</td>' + '<td>' + 'toString' + '</td>' + '<td>' + b.toString(16) + '</td>' + '<td>' + 'Возвращает строковое представление числа в системе счисления с указанным основанием(16)' + '</td>' + '</tr>')
+  document.write('</table>')
+  </script>
+</body>
+</html>

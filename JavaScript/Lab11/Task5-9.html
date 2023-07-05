@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      .menu-item1,
+      .menu-item2,
+      .menu-item3 {
+        border: 2px soild #66cdaa;
+        background: rgb(252, 5, 170);
+        float: left;
+        position: relative;
+        cursor: pointer;
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+        border: 1px solid rgb(6, 210, 247);
+      }
+      .menu-item1 .submenu1 {
+        display: none;
+        width: 100px;
+        border: 1px solid rgb(173, 240, 16);
+        background: rgb(2, 216, 245);
+        position: absolute;
+        top: 30px;
+        cursor: pointer;
+      }
+      .menu-item2 .submenu2 {
+        display: none;
+        width: 100px;
+        border: 1px solid rgb(27, 59, 202);
+        background: rgb(36, 197, 4);
+        position: absolute;
+        top: 30px;
+        cursor: pointer;
+      }
+      .menu-item3 .submenu3 {
+        display: none;
+        width: 100px;
+        border: 1px solid rgb(252, 13, 53);
+        background: rgb(238, 7, 199);
+        position: absolute;
+        top: 30px;
+        cursor: pointer;
+      }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <link
+      href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  </head>
+  <body>
+    <div id="nav">
+      <div class="menu-item1">
+        Меню 1
+        <div class="submenu1">Подменю</div>
+      </div>
+      <div class="menu-item2">
+        Меню 2
+        <div class="submenu2">Подменю</div>
+      </div>
+      <div class="menu-item3">
+        Меню 3
+        <div class="submenu3">Подменю</div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".menu-item1").hover(function () {
+          $(this).children().slideToggle("hide");
+        });
+      });
+      $(document).ready(function () {
+        $(".menu-item2").hover(function () {
+          $(".submenu2").slideToggle("hide");
+        });
+      });
+      $(document).ready(function () {
+        $(".menu-item3").hover(function () {
+          $(".submenu3").slideToggle("hide");
+        });
+      });
+    </script>
+  </body>
+</html>

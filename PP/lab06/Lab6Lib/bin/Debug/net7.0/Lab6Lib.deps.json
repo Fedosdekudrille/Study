@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Lab6Lib/1.0.0": {
+        "dependencies": {
+          "Observer": "1.0.0"
+        },
+        "runtime": {
+          "Lab6Lib.dll": {}
+        }
+      },
+      "Observer/1.0.0": {
+        "runtime": {
+          "Observer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab6Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Observer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

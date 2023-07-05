@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>window</title>
+    <style media="screen">
+      body{
+        background-color: blue;
+      }
+      table{
+        border-collapse: collapse;
+        text-align: center;
+        margin: auto;
+        margin-top: 150px;
+      }
+      td{
+        border: black solid;
+        background-color: orange;
+      }
+      input{
+        background-color: yellow;
+      }
+      div{
+        text-align: center;
+        margin:100px;
+      }
+    </style>
+  </head>
+  <body>
+<script src="script.js"></script>
+<div>
+<input type="button" onclick="fun1()" value="Открыть окно1">
+<input type="button" onclick="fun2()" value="Открыть окно2">
+<input type="button" onclick="text1()" value="Написать текст в окне 1">
+<input type="button" onclick="text2()" value="Написать текст в окне 2">
+</div>
+<table>
+  <tr>
+    <td>Информация о браузере пользователя</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Версия браузера</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Название браузера</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Кодовое название браузера</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ОС, которую использует пользователь</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Включена ли поддержка Java в браузере</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Ширина и высота экрана</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Глубина цвета</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>URL, которые были посещены в данном окне браузера</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>URL текущего документа</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Путь к загруженному документу</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Имя домена загруженного документа</td>
+    <td></td>
+  </tr>
+</table>
+<script src="table.js"></script>
+<div>
+<input type="button" onclick="document.location.assign('https://learn.javascript.ru/closure')" value="Перейти на другой сайт">
+</div>
+  </body>
+</html>

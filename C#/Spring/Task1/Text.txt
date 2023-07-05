@@ -1,0 +1,2 @@
+Soap 5 20
+Salad 3 5

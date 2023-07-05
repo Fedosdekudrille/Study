@@ -1,0 +1,15 @@
+C:\Study\C#\Color\bin\Debug\net6.0\Color.exe
+C:\Study\C#\Color\bin\Debug\net6.0\Color.deps.json
+C:\Study\C#\Color\bin\Debug\net6.0\Color.runtimeconfig.json
+C:\Study\C#\Color\bin\Debug\net6.0\Color.dll
+C:\Study\C#\Color\bin\Debug\net6.0\Color.pdb
+C:\Study\C#\Color\obj\Debug\net6.0\Color.csproj.AssemblyReference.cache
+C:\Study\C#\Color\obj\Debug\net6.0\Color.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\C#\Color\obj\Debug\net6.0\Color.AssemblyInfoInputs.cache
+C:\Study\C#\Color\obj\Debug\net6.0\Color.AssemblyInfo.cs
+C:\Study\C#\Color\obj\Debug\net6.0\Color.csproj.CoreCompileInputs.cache
+C:\Study\C#\Color\obj\Debug\net6.0\Color.dll
+C:\Study\C#\Color\obj\Debug\net6.0\refint\Color.dll
+C:\Study\C#\Color\obj\Debug\net6.0\Color.pdb
+C:\Study\C#\Color\obj\Debug\net6.0\Color.genruntimeconfig.cache
+C:\Study\C#\Color\obj\Debug\net6.0\ref\Color.dll

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixer</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/drop.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="./img/city.png" alt="City">
+            <div class="help-buttons">
+                <p>Магазины</p>
+                <p class="help">Помощь</p>
+                <p>Оплата и доставка</p>
+                <p>Что с моим заказом?</p>
+                <div class="help-order">
+                    <p>Хочу бонусную карту</p>
+                </div>
+            </div>
+            <div class="top-right-bar">
+                <img class="number" src="./img/number.png" alt="Number"/>
+                <img src="./img/profile.png" alt="Profile"/>
+            </div>
+        </div>
+        <div class="header">
+            <img class="logo" src="./img/logo.png" alt="Pixer">
+            <img class="min-logo" src="./img/logo-min.png" alt="X">
+            <div class="navigation">
+                <button class="catalog">
+                    <img src="./img/catalog.png">
+                </button>
+                <button class="min-cat">
+                    <img src="./img/min-cat.png">
+                </button>
+                <div class="search-body">
+                    <input type="text" class="search-input" placeholder="Введите текст">
+                    <button class="search-button">
+                        <img src="./img/search-button.png">
+                    </button>
+                </div>
+            </div>
+            <div class="control">
+                <button class="control-button">
+                    <img src="./img/compare.png">
+                </button>
+                <button class="control-button">
+                    <img src="./img/chosen.png">
+                </button>
+                <button class="control-button">
+                    <img src="./img/cart.png">
+                </button>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="bottom-header-suggestions">
+                <img class="header-suggestion" src="./img/header-actions.png" alt="Акции">
+                <p class="header-suggestion">Чистка от пыли</p>
+                <p class="header-suggestion">Чистка от пыли</p>
+                <p class="header-suggestion">Чистка от пыли</p>
+                <p class="header-suggestion">Чистка от пыли</p>
+                <p class="header-suggestion">Чистка от пыли</p>
+                <p class="header-suggestion">Чистка от пыли</p>
+                <p class="header-suggestion">Чистка от пыли</p>
+                <p class="header-suggestion">Чистка от пыли</p>
+            </div>
+            <img style="cursor:pointer" src="./img/next-slide-header.png" alt=">"/>
+        </div>
+    </header>
+    <main>
+        <div class="main-action">
+            <div class="slider">
+                <div class="slider-body">
+                    <img src="./img/change-slide.png" class="prev-slide" alt=">">
+                    <div class="blur rot"></div>
+                    <div class="slides">
+                        <image class="slider-content" src="./img/slide.png" alt="Не загружено"/>
+                    </div>
+                    <div class="blur"></div>
+                    <img src="./img/change-slide.png" class="next-slide" alt="<">
+                </div>
+                <div class="slides-count">
+                    <div class="slide-bar"></div>
+                    <div class="slide-bar"></div>
+                    <div class="slide-bar"></div>
+                    <div class="slide-bar"></div>
+                    <div class="slide-bar slide-bar-selected"></div>
+                    <div class="slide-bar"></div>
+                    <div class="slide-bar"></div>
+                    <div class="slide-bar"></div>
+                    <div class="slide-bar"></div>
+                    <div class="slide-bar"></div>
+                </div>
+            </div>
+            <div class="action-card">
+                <img src="./img/action-card.png"/>
+            </div>
+        </div>
+        <div class="popular">
+            <div class="title">
+                <h3>Популярные категории</h3>
+                <p>Все категории</p>
+            </div>
+            <div class="popular-body">
+                <div class="cathegories">
+                    <img src="./img/cathegory.png"/>
+                    <img src="./img/cathegory.png"/>
+                    <img src="./img/cathegory.png"/>
+                    <img src="./img/cathegory.png"/>
+                    <img src="./img/cathegory.png"/>
+                </div>
+                <div class="blur"></div>
+                <img src="./img/change-slide.png" class="next-slide" alt=">">
+            </div>
+        </div>
+        <div class="second-suggestion">
+            <div class="slider-body">
+                <img src="./img/change-slide.png" class="prev-slide" alt="<">
+                <div class="blur rot"></div>
+                <div class="slides">
+                    <image class="slider-content" src="./img/slide2.png" alt="Не загружено"/>
+                    <image class="slider-content" src="./img/slide3.png" alt="Не загружено"/>
+                </div>
+                <div class="blur"></div>
+                <img src="./img/change-slide.png" class="next-slide" alt=">">
+            </div>
+            <div class="slides-count">
+                <div class="slide-bar"></div>
+                <div class="slide-bar slide-bar-selected"></div>
+                <div class="slide-bar"></div>
+                <div class="slide-bar"></div>
+                <div class="slide-bar"></div>
+            </div>
+        </div>
+        <div class="hits">
+            <div class="title">
+                <h3>Хиты продаж</h3>
+            </div>
+            <div width="100%" class="slider-body">
+                <img src="./img/change-slide.png" class="prev-slide-hits" alt="<"/>
+                <div class="blur rot"></div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-main">
+                            <img class="card-image" src="./img/vid.png"/>
+                            <div class="metadata">
+                                <img src="./img/metadata.png"/>
+                            </div>
+                            <p class="name">
+                                Видеокарта GEFORCE RTX 4090
+                            </p>
+                            <img src="./img/superprice.png" alt="Суперцена"/>
+                            <div class="price">
+                                <p class="main-price">820102.</p>
+                                <p class="mini-price">00</p>
+                            </div>
+                            <img class="in-cart" src="./img/in-cart.png"/>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./img/card-buttons.png" alt="Кнопки"/>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-main">
+                            <img class="card-image" src="./img/vid.png"/>
+                            <div class="metadata">
+                                <img src="./img/metadata.png"/>
+                            </div>
+                            <p class="name">
+                                Видеокарта GEFORCE RTX 4090
+                            </p>
+                            <img src="./img/superprice.png" alt="Суперцена"/>
+                            <div class="price">
+                                <p class="main-price">820102.</p>
+                                <p class="mini-price">00</p>
+                            </div>
+                            <img class="in-cart" src="./img/in-cart.png"/>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./img/card-buttons.png" alt="Кнопки"/>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-main">
+                            <img class="card-image" src="./img/vid.png"/>
+                            <div class="metadata">
+                                <img src="./img/metadata.png"/>
+                            </div>
+                            <p class="name">
+                                Видеокарта GEFORCE RTX 4090
+                            </p>
+                            <img src="./img/superprice.png" alt="Суперцена"/>
+                            <div class="price">
+                                <p class="main-price">820102.</p>
+                                <p class="mini-price">00</p>
+                            </div>
+                            <img class="in-cart" src="./img/in-cart.png"/>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./img/card-buttons.png" alt="Кнопки"/>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-main">
+                            <img class="card-image" src="./img/vid.png"/>
+                            <div class="metadata">
+                                <img src="./img/metadata.png"/>
+                            </div>
+                            <p class="name">
+                                Видеокарта GEFORCE RTX 4090
+                            </p>
+                            <img src="./img/superprice.png" alt="Суперцена"/>
+                            <div class="price">
+                                <p class="main-price">820102.</p>
+                                <p class="mini-price">00</p>
+                            </div>
+                            <img class="in-cart" src="./img/in-cart.png"/>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./img/card-buttons.png" alt="Кнопки"/>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-main">
+                            <img class="card-image" src="./img/vid.png"/>
+                            <div class="metadata">
+                                <img src="./img/metadata.png"/>
+                            </div>
+                            <p class="name">
+                                Видеокарта GEFORCE RTX 4090
+                            </p>
+                            <img src="./img/superprice.png" alt="Суперцена"/>
+                            <div class="price">
+                                <p class="main-price">820102.</p>
+                                <p class="mini-price">00</p>
+                            </div>
+                            <img class="in-cart" src="./img/in-cart.png"/>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./img/card-buttons.png" alt="Кнопки"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="blur"></div>
+                <img src="./img/change-slide.png" class="next-slide-hits" alt=">"/>
+            </div>
+        </div>
+        <div class="second-suggestion">
+            <div class="title">
+                <h3>Новинки</h3>
+                <p>Все новинки</p>
+            </div>
+            <div class="slider-body">
+                <img src="./img/change-slide.png" class="prev-slide" alt="<">
+                <div class="blur rot"></div>
+                <div class="slides">
+                    <image class="slider-content" src="./img/slide4.png" alt="Не загружено"/>
+                    <image class="slider-content" src="./img/slide5.png" alt="Не загружено"/>
+                </div>
+                <div class="blur"></div>
+                <img src="./img/change-slide.png" class="next-slide" alt=">">
+            </div>
+            <div class="slides-count">
+                <div class="slide-bar"></div>
+                <div class="slide-bar slide-bar-selected"></div>
+                <div class="slide-bar"></div>
+                <div class="slide-bar"></div>
+                <div class="slide-bar"></div>
+            </div>
+        </div>
+        <div class="brands">
+            <div class="title">
+                <h3>Бренды</h3>
+                <p>Все бренды</p>
+            </div>
+            <div class="brands-body">
+                <div class="brands-all">
+                    <img src="./img/brand.png" alt="Не загружено">
+                    <img src="./img/brand.png" alt="Не загружено">
+                    <img src="./img/brand.png" alt="Не загружено">
+                    <img src="./img/brand.png" alt="Не загружено">
+                    <img src="./img/brand.png" alt="Не загружено">
+                </div>
+                <div class="blur"></div>
+                <img src="./img/change-slide.png" alt=">"/>
+            </div>
+        </div>
+    </main>
+    <div class="bottom-bar">
+        <div class="bottom-bar-content">
+            <img src="./img/compare.png"/>
+        </div>
+        <div class="bottom-bar-content">
+            <img src="./img/chosen.png"/>
+        </div>
+        <div class="bottom-bar-content">
+            <img src="./img/cart.png"/>
+        </div>
+        <div class="bottom-bar-content">
+            <img src="./img/mail.png"/>
+        </div>
+    </div>
+    <img class="contact" src="./img/contact.png" alt="Свяжитесь с нами!" />
+    <footer>
+        <div class="footer-top">
+            <img src="./img/logo.png" alt="Pixer" />
+            <img src="./img/social.png"/>
+            <div class="footer-sub">
+                <p>Подписаться на рассылки и акции</p>
+                <div class="sub">
+                    <input type="text" placeholder="Электронная почта">
+                    <button class="sub-button">
+                        Подписаться
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-main">
+            <img src="./img/f1.png" alt="Не загружено" class="fmi">
+            <img src="./img/f2.png" alt="Не загружено" class="fmi">
+            <img src="./img/f3.png" alt="Не загружено" class="fmi">
+            <img src="./img/f4.png" alt="Не загружено" class="fmi">
+            <img src="./img/f5.png" alt="Не загружено" class="fmi">
+        </div>
+        <div class="footer-bot">
+            <img src="./img/bf1.png" alt="Не загружено" class="fmb">
+            <img src="./img/bf2.png" alt="Не загружено" class="fmb">
+            <img src="./img/bf3.png" alt="Не загружено" class="fmb">
+        </div>
+    </footer>
+</body>
+</html>

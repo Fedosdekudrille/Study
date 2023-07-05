@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Форма</title>
+    <style media="screen">
+      #k {
+        margin-top: 80px;
+      }
+      input {
+        margin-bottom: 20px;
+      }
+      h1 {
+        text-align: center;
+      }
+      #subm {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form name="form">
+      <textarea
+        name="FIT"
+        rows="3"
+        cols="60"
+        placeholder="Введите факультет"
+      ></textarea>
+      <div>
+        <input type="text" name="name" placeholder="Имя" />
+      </div>
+      <div>
+        <input type="text" name="surname" placeholder="Фамилия" />
+      </div>
+      <label>Специальность</label>
+      <select name="spec">
+        <option name="isit">ИСиТ</option>
+        <option name="poit">ПОИТ</option>
+        <option name="poibms">ПОИБМС</option>
+        <option name="davi">ДЭВИ</option>
+      </select>
+      <p id="k">Курс</p>
+      <input type="radio" name="kurs" value="1" />
+      <label>1</label>
+      <input type="radio" name="kurs" value="2" />
+      <label>2</label>
+      <input type="radio" name="kurs" value="3" />
+      <label>3</label>
+      <input type="radio" name="kurs" value="4" />
+      <label>4</label>
+      <p>Предметы</p>
+      <input type="checkbox" name="pred" value="ОИТ" />
+      <label>ОИТ</label>
+      <input type="checkbox" name="pred" value="ОАИП" />
+      <label>ОАИП</label>
+      <input type="checkbox" name="pred" value="История" />
+      <label>История</label>
+      <input type="checkbox" name="pred" value="Физика" />
+      <label>Физика</label>
+      <input type="checkbox" name="pred" value="Математика" />
+      <label>Математика</label>
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+    <button id="but" type="button" onclick="pech()">Напечатать</button>
+    <script src="script.js"></script>
+    <h1></h1>
+    <p id="p"></p>
+    <ul id="one"></ul>
+    <form name="secondform">
+      <select id="subm" name="sub"></select>
+    </form>
+  </body>
+</html>

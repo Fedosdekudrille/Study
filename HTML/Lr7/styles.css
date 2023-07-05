@@ -1,0 +1,141 @@
+img{
+  width: 370px;
+  transform: perspective(100px);
+}
+#pic1:hover{
+  transform: scale(0.5);
+}
+#pic2{
+  transform: rotate(45deg);
+}
+#pic3{
+  transform: translate(50px, 0px);
+}
+#pic4:hover{
+  transform: skewY(-20deg);
+}
+#pic5{
+  transform: rotateX(50deg), perspective(100px);
+  perspective-origin: center;
+}
+#pic6{
+  transform: rotateY(50deg);
+}
+#pic7{
+  transform: rotateX(40deg);
+}
+#pic8{
+  transform: rotateY(-50deg);
+}
+div{
+  width: 300px;
+  height: 300px;
+  color: red;
+  transition: color 20s linear;
+  display: inline-block;
+}
+div:hover{
+  color: blue;
+}
+#anime{
+  animation-name: surp;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+}
+@keyframes surp {
+0%{
+  background-image: url(01_scandaly_jivopis.jpg);
+}
+25%{
+  background-image: url(002-Van_Gogh-Starry_Night-70-90-300.jpg);
+}
+50%{
+  background-image: url(cover-1.jpg);
+}
+75%{
+  background-image: url(3f92a81d-4e8b-46c6-9149-6344e1e930d6.jpg);
+}
+100%{
+  background-image: url(61592_1_1.jpg);
+}
+}
+#right{
+  animation-name: right;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes right {
+  from{right: 400px;}
+  to{right: 0px;}
+}
+#top{
+  animation-name: top;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes top {
+  from{left: -75px; top: 400px;}
+  to{left: -75px; top: -140px;}
+}
+#pro{
+  animation-name: pro;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes pro {
+  from{right: 0px; top: 0px;}
+  to{right: 450px; top: -300px;}
+}
+#sq{
+  animation-name: sq;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes sq {
+  0%{top: 0px; left: 0px;}
+  25%{top: -300px; left: 0;}
+  50%{top: -300px; left: -300px;}
+  75%{top: 0; left: -300px;}
+  100%{top: 0px; left: 0px;}
+}
+h1{
+  text-align: center;
+  color: green;
+}
+@keyframes zag {
+  from{opacity: 0%;}
+  to{opacity:80%;}
+}
+.rot{
+  transform: perspective(100px);
+}
+ul{
+  position:fixed;
+  margin-left:1400px;
+
+}
+li{
+  list-style-type: none;
+}
+#one:link{
+  color:red;
+}
+#two:visited{
+  color: #8B0000;
+}
+.thgreen:hover{
+  color: green;
+}
+#four:active{
+  color: rgb(184, 134, 11);
+}
+nav .one{
+  display:inline;
+}

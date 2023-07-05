@@ -1,0 +1,5 @@
+<!ELEMENT note (to, from, Sbj, msg)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT Sbj (#PCDATA)>
+<!ELEMENT msg (#PCDATA)>

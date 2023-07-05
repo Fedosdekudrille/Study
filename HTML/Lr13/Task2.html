@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div>
+      <b>Кому:</b> <span id="to"></span><br />
+      <b>Страна:</b> <span id="from"></span><br />
+      <b>Город:</b> <span id="city"></span>
+    </div>
+
+    <script>
+      txt = "<student>";
+      txt = txt + "<name>Фёдор</name>";
+      txt = txt + "<surname>Кудрицкий</surname>";
+      txt = txt + "<country>Беларусь</country>";
+      txt = txt + "<city>Минск</city>";
+      txt = txt + "</note>";
+
+      if (window.DOMParser) {
+        parser = new DOMParser();
+        xmlDoc = parser.parseFromString(txt, "text/xml");
+      } else {
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async = false;
+        xmlDoc.loadXML(txt);
+      }
+
+      document.getElementById("to").innerHTML =
+        xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+      document.getElementById("from").innerHTML =
+        xmlDoc.getElementsByTagName("country")[0].childNodes[0].nodeValue;
+      document.getElementById("city").innerHTML =
+        xmlDoc.getElementsByTagName("city")[0].childNodes[0].nodeValue;
+    </script>
+  </body>
+</html>

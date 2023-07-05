@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmlt2.xsl"?>
+<attestation>
+	<student>
+		<name>Иван</name>
+		<surname>Иванов</surname>
+		<score>10</score>
+		<attendance>100</attendance>
+	</student>
+	<student>
+		<name>Олег</name>
+		<surname>Селов</surname>
+		<score>2</score>
+		<attendance>100</attendance>
+	</student>
+	<student>
+		<name>Гриша</name>
+		<surname>Горомой</surname>
+		<score>10</score>
+		<attendance>50</attendance>
+	</student>
+	<student>
+		<name>Вовочка</name>
+		<surname></surname>
+		<score>4</score>
+		<attendance>0</attendance>
+	</student>
+	<student>
+		<name>Искар</name>
+		<surname>Лупов</surname>
+		<score>8</score>
+		<attendance>80</attendance>
+	</student>
+</attestation>

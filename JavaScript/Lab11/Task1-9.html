@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .image {
+        left: 100px;
+        cursor: pointer;
+        position: absolute;
+      }
+      div {
+        cursor: pointer;
+        position: absolute;
+        padding: 100px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css"
+    />
+  </head>
+  <body>
+    <img src="duck.webp" width="400px" id="image" class="image" />
+
+    <div id="text" class="p..">
+      <textarea cols="30" rows="10" ondragstart="drag();">Text</textarea>
+    </div>
+
+    <script>
+      $("#text").draggable();
+      $("#image").draggable();
+      // flag = false; // нельзя перемещать
+      // var NameOfElem = "";
+      // text.ondragstart = function () {
+      //   flag = true;
+      //   NameOfElem = event.target.id;
+      // };
+
+      // document.onmousemove = () => {
+      //   if (flag) {
+      //     // если можно перемещать
+      //     document.getElementById(`${NameOfElem}`).style.top =
+      //       event.clientY / 2 + "px";
+      //     document.getElementById(`${NameOfElem}`).style.left =
+      //       event.clientX / 2 + "px";
+      //   }
+      // };
+      // document.onmouseup = () => {
+      //   flag = false;
+      // }; // нельзя перемещать
+    </script>
+  </body>
+</html>

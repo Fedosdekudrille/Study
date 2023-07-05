@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      div{
+        background-image: linear-gradient(to bottom, blue, red);
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin: 10px;
+      }
+      #stripes{
+        background: repeating-linear-gradient(45deg, red, red 5px, blue 5px, blue 10px);
+      }
+      #round{
+        background-image: radial-gradient(green, yellow);
+      }
+      #circle{
+        background: repeating-radial-gradient(green, green 5px, yellow 5px, yellow 10px);
+      }
+      #ciryare{
+        background-image:
+        radial-gradient(yellow, green, transparent 90%),
+        linear-gradient(to bottom , blue, pink);
+      }
+      #shift{
+        background-image: linear-gradient(to right, yellow 10%, green 50%, transparent),
+        linear-gradient(to bottom, black 10%, white 50% 70%, blue 80%, pink 90%);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+    </div>
+    <div id="stripes">
+    </div>
+    <div id="round">
+    </div>
+    <div id="circle">
+    </div>
+    <div id="ciryare">
+    </div>
+    <div id="shift">
+    </div>
+  </body>
+</html>

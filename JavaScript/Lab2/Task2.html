@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset='UTF-8'>
+<title>Tabel.1</title>
+</head>
+<style media="screen">
+  td{
+    background-color: yellow;
+  }
+</style>
+<body>
+<script type='text/javascript'>
+document.write('<table border="1" align="center">')
+let a = prompt('Введите первое число: ')
+let b = prompt('Введите второе число: ')
+for (let x = 1; x <= a; x++) {
+document.write('<tr>')
+document.write('<td>' + x + '</td>')
+for (let y = 2; y <= b; y++) {
+document.write('<td>' + x * y + '</td>')
+}
+document.write('</tr>')
+}
+document.write('</table>')
+</script>
+</body>
+
+</html>

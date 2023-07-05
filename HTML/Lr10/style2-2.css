@@ -1,0 +1,12 @@
+table{
+  display: none;
+}
+.h{
+  display:none;
+}
+ul{
+  list-style-type:none;
+}
+ul:hover .h{
+  display: block;
+}

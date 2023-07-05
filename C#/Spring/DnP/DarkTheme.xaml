@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="MenuTheme" TargetType="Border">
+        <Setter Property="Background" Value="#18253D"/>
+        <Setter Property="BorderBrush" Value="#505F94"/>
+        <Setter Property="BorderThickness" Value="2"/>
+    </Style>
+    <LinearGradientBrush x:Key="MainBackground" EndPoint="0,0" StartPoint="1, 1">
+        <GradientStop Color="#FF1E252B"/>
+        <GradientStop Color="#310B327C" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Navbar" Color="#1E2E3E"/>
+    <SolidColorBrush x:Key="Searchbar" Color="#2C353D"/>
+    <SolidColorBrush x:Key="GenRes" Color="#FF092A58"/>
+    <SolidColorBrush x:Key="ChangeCov" Color="#4C051228"/>
+</ResourceDictionary>

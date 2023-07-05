@@ -1,0 +1,15 @@
+C:\Study\C#\Server\bin\Debug\net6.0\Server.exe
+C:\Study\C#\Server\bin\Debug\net6.0\Server.deps.json
+C:\Study\C#\Server\bin\Debug\net6.0\Server.runtimeconfig.json
+C:\Study\C#\Server\bin\Debug\net6.0\Server.dll
+C:\Study\C#\Server\bin\Debug\net6.0\Server.pdb
+C:\Study\C#\Server\obj\Debug\net6.0\Server.csproj.AssemblyReference.cache
+C:\Study\C#\Server\obj\Debug\net6.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\C#\Server\obj\Debug\net6.0\Server.AssemblyInfoInputs.cache
+C:\Study\C#\Server\obj\Debug\net6.0\Server.AssemblyInfo.cs
+C:\Study\C#\Server\obj\Debug\net6.0\Server.csproj.CoreCompileInputs.cache
+C:\Study\C#\Server\obj\Debug\net6.0\Server.dll
+C:\Study\C#\Server\obj\Debug\net6.0\refint\Server.dll
+C:\Study\C#\Server\obj\Debug\net6.0\Server.pdb
+C:\Study\C#\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
+C:\Study\C#\Server\obj\Debug\net6.0\ref\Server.dll

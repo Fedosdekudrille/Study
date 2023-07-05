@@ -1,0 +1,66 @@
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\obj\Debug\net7.0\Lab04.csproj.AssemblyReference.cache
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\obj\Debug\net7.0\Lab04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\obj\Debug\net7.0\Lab04.AssemblyInfoInputs.cache
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\obj\Debug\net7.0\Lab04.AssemblyInfo.cs
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\obj\Debug\net7.0\Lab04.csproj.CoreCompileInputs.cache
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\bin\Debug\net7.0\Lab04.exe
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\bin\Debug\net7.0\Lab04.deps.json
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\bin\Debug\net7.0\Lab04.runtimeconfig.json
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\bin\Debug\net7.0\Lab04.dll
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\bin\Debug\net7.0\Lab04.pdb
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\obj\Debug\net7.0\Lab04.dll
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\obj\Debug\net7.0\refint\Lab04.dll
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\obj\Debug\net7.0\Lab04.pdb
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\obj\Debug\net7.0\Lab04.genruntimeconfig.cache
+C:\Users\Stanislaw\Desktop\Патерны\лабы\Lab04\Lab04\obj\Debug\net7.0\ref\Lab04.dll
+D:\2 курс\2семестр\Паттерны\Lab04\bin\Debug\net7.0\Lab04.exe
+D:\2 курс\2семестр\Паттерны\Lab04\bin\Debug\net7.0\Lab04.deps.json
+D:\2 курс\2семестр\Паттерны\Lab04\bin\Debug\net7.0\Lab04.runtimeconfig.json
+D:\2 курс\2семестр\Паттерны\Lab04\bin\Debug\net7.0\Lab04.dll
+D:\2 курс\2семестр\Паттерны\Lab04\bin\Debug\net7.0\Lab04.pdb
+D:\2 курс\2семестр\Паттерны\Lab04\obj\Debug\net7.0\Lab04.csproj.AssemblyReference.cache
+D:\2 курс\2семестр\Паттерны\Lab04\obj\Debug\net7.0\Lab04.GeneratedMSBuildEditorConfig.editorconfig
+D:\2 курс\2семестр\Паттерны\Lab04\obj\Debug\net7.0\Lab04.AssemblyInfoInputs.cache
+D:\2 курс\2семестр\Паттерны\Lab04\obj\Debug\net7.0\Lab04.AssemblyInfo.cs
+D:\2 курс\2семестр\Паттерны\Lab04\obj\Debug\net7.0\Lab04.csproj.CoreCompileInputs.cache
+D:\2 курс\2семестр\Паттерны\Lab04\obj\Debug\net7.0\Lab04.dll
+D:\2 курс\2семестр\Паттерны\Lab04\obj\Debug\net7.0\refint\Lab04.dll
+D:\2 курс\2семестр\Паттерны\Lab04\obj\Debug\net7.0\Lab04.pdb
+D:\2 курс\2семестр\Паттерны\Lab04\obj\Debug\net7.0\Lab04.genruntimeconfig.cache
+D:\2 курс\2семестр\Паттерны\Lab04\obj\Debug\net7.0\ref\Lab04.dll
+C:\Study\PP\Lab04\bin\Debug\net7.0\Lab04.exe
+C:\Study\PP\Lab04\bin\Debug\net7.0\Lab04.deps.json
+C:\Study\PP\Lab04\bin\Debug\net7.0\Lab04.runtimeconfig.json
+C:\Study\PP\Lab04\bin\Debug\net7.0\Lab04.dll
+C:\Study\PP\Lab04\bin\Debug\net7.0\Lab04.pdb
+C:\Study\PP\Lab04\obj\Debug\net7.0\Lab04.csproj.AssemblyReference.cache
+C:\Study\PP\Lab04\obj\Debug\net7.0\Lab04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\PP\Lab04\obj\Debug\net7.0\Lab04.AssemblyInfoInputs.cache
+C:\Study\PP\Lab04\obj\Debug\net7.0\Lab04.AssemblyInfo.cs
+C:\Study\PP\Lab04\obj\Debug\net7.0\Lab04.csproj.CoreCompileInputs.cache
+C:\Study\PP\Lab04\obj\Debug\net7.0\Lab04.dll
+C:\Study\PP\Lab04\obj\Debug\net7.0\refint\Lab04.dll
+C:\Study\PP\Lab04\obj\Debug\net7.0\Lab04.pdb
+C:\Study\PP\Lab04\obj\Debug\net7.0\Lab04.genruntimeconfig.cache
+C:\Study\PP\Lab04\obj\Debug\net7.0\ref\Lab04.dll
+C:\Study\PP\Lab04\bin\Debug\net7.0\Lec04LibN.dll
+C:\Study\PP\Lab04\bin\Debug\net7.0\Lec04LibN.pdb
+C:\Study\PP\Lab04\obj\Debug\net7.0\Lab04.csproj.CopyComplete
+C:\Study\PP\Lad4\Lab04\bin\Debug\net7.0\Lab04.exe
+C:\Study\PP\Lad4\Lab04\bin\Debug\net7.0\Lab04.deps.json
+C:\Study\PP\Lad4\Lab04\bin\Debug\net7.0\Lab04.runtimeconfig.json
+C:\Study\PP\Lad4\Lab04\bin\Debug\net7.0\Lab04.dll
+C:\Study\PP\Lad4\Lab04\bin\Debug\net7.0\Lab04.pdb
+C:\Study\PP\Lad4\Lab04\bin\Debug\net7.0\Lec04LibN.dll
+C:\Study\PP\Lad4\Lab04\bin\Debug\net7.0\Lec04LibN.pdb
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\Lab04.csproj.AssemblyReference.cache
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\Lab04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\Lab04.AssemblyInfoInputs.cache
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\Lab04.AssemblyInfo.cs
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\Lab04.csproj.CoreCompileInputs.cache
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\Lab04.csproj.CopyComplete
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\Lab04.dll
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\refint\Lab04.dll
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\Lab04.pdb
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\Lab04.genruntimeconfig.cache
+C:\Study\PP\Lad4\Lab04\obj\Debug\net7.0\ref\Lab04.dll

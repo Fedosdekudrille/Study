@@ -1,0 +1,43 @@
+
+<svg width="280" height="180" id="svg1">
+  <rect id="nana" x="10" y="10" width="50" height="50" fill="red" stroke-width ="5" stroke="blue" />
+  <animate attributeName="stroke" 
+  xlink:href="#nana"
+  from="green"
+  to="blue" 
+  dur="1s"
+  begin="0s" 
+repeatCount="indefinite" 
+  fill="freeze" /> 
+  <polygon id="myelement" points="95,10 75,60 120,60" fill="yellow" stroke-width ="5" stroke="blue" />
+  <animate attributeName="stroke" 
+  xlink:href="#myelement"
+  from="green"
+  to="blue" 
+  dur="1s"
+  begin="click"
+  fill="freeze" />
+<animate attributeName="fill" values="red; yellow; green; #0000ff" dur="15s" fill="freeze"/>
+  <circle cx="150" cy="35" r="24"  fill="orange" />
+  <ellipse cx="215" cy="35" rx="35" ry="25" fill="green"  id="orange-circle"/>
+  <animate  xlink:href="#orange-circle"
+ attributeName="fill"
+ from="red"
+ to="blue" 
+ dur="1s"
+ begin="click"
+ fill="freeze" />
+  <line
+  x1="120" y1="70" x2="10" y2="70" 
+  stroke="violet" stroke-width="2"
+/>
+<line
+x1="120" y1="70" x2="90" y2="90"
+stroke="violet" stroke-width="2"
+/>
+<line
+x1="90" y1="90" x2="250" y2="90"
+stroke="violet" stroke-width="2" fill="purple"
+/>
+
+</svg>

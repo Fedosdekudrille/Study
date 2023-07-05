@@ -1,0 +1,72 @@
+h1,h2,h3 { 
+    color:purple;
+    font-style: "Monotype Corsiva";
+}
+
+.podpunkt  {
+    color: red;
+    font-size: 18pt;
+    font-style: "thimes new roman";
+    
+}
+.podpunkt1  {
+    color: yellow;
+    font-size: 20pt;
+    font-style: "thimes new roman";
+    
+}
+
+.podpunkt2  {
+    color: green;
+    font-size: 22pt;
+    font-style: "thimes new roman";
+    
+}
+#banner {
+    
+        text-decoration: line-through;
+    
+}
+table tr td {
+    background-color: lime; /* задаём цвет заднего фона */
+    color: white; /* задаём цвет шрифта*/
+    font-size: 30px; /*Указываем размер шрифта*/
+    height: 40px; /* указываем высоту элемента*/
+    text-align: center; /* горизонтальное выравнивание текста по центру */
+    }
+
+ul li{
+    list-style: none; /* Убираем исходные маркеры */
+    background-image: url("https://webref.ru/example/image/bullet.png");
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    padding-left: 25px;
+margin-bottom: 10px;
+
+
+}
+
+.po{
+    margin: 0;
+    text-indent: 20px;
+}
+
+.img-no-foto-1 {
+    float: left;
+    height: 300px;
+    width: 250px;
+}
+
+.img-no-foto-2 {
+    float: right;
+    height: 300px;
+    width: 250px;
+}
+
+.container {
+    width: 710px;
+}
+
+.inner-container {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Задание№3</title>
+    <style media="screen">
+    table{
+      border-collapse: collapse;
+    }
+      td{
+        color: red;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <script type='text/javascript'>
+      let a = 1
+      let b = 9
+      let S = Math.PI * a**2;
+      let L = 2 * Math.PI * a;
+      document.write("<table border='1' align='center'>");
+        document.write("<tr>");
+          document.write("<td>Радиус</td>");
+          document.write("<td>Площадь круга</td>");
+          document.write("<td>Длина окружности</td>");
+        document.write("</tr>");
+        do{
+            document.write("<tr>");
+            document.write("<td>" + Math.round(a*10)/10 + "</td>");
+            document.write("<td>" + Math.round(S) + "</td>");
+            document.write("<td>" + Math.round(L) + "</td>");
+            document.write("</tr>");
+            a = a + 0.3;
+        }while (a < b);
+        document.write("</table>");
+    </script>
+  </body>
+</html>

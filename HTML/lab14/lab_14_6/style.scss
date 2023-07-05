@@ -1,0 +1,91 @@
+$pOneFont: Arial, Helvetica, sans-serif;
+$pOneFontSize: 48px;
+$defaultBlue: blue;
+$defaultRed: red;
+$defaultGreen: green;
+$defaultBlack: black;
+$defaultOrange: orange;
+$defaultYellow: yellow;
+$defaultBorder: 1px solid black;
+
+h1 {
+	text-align: center;
+}
+
+p:nth-of-type(1) {
+	font-family: $pOneFont;
+	font-size: $pOneFontSize;
+	color: $pOneTextColor;
+}
+
+p:nth-of-type(2) {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: $defaultGreen;
+}
+
+p:nth-of-type(3) {
+	font-family: Courier, monospace;
+	font-size: 36px;
+	color: $defaultYellow;
+}
+
+ol {
+	li {
+		font-size: 24px;
+	}
+
+	ul {
+		li {
+			font-size: 18px;
+		}
+	}
+}
+
+.podpunkt {
+	list-style-type: disc;
+}
+
+.podpunkt1 {
+	list-style-type: square;
+}
+
+.podpunkt2 {
+	list-style-type: circle;
+}
+
+table {
+	width: 300px;
+	height: 200px;
+	border-collapse: collapse;
+
+	td {
+		border: $defaultBorder;
+	}
+}
+
+svg {
+	width: 300px;
+	height: 200px;
+
+	a:nth-child(1) {
+		stroke: $defaultBlue;
+	}
+
+	a:nth-child(2) {
+		stroke: $defaultGreen;
+	}
+
+	a:nth-child(3) {
+		stroke: $defaultRed;
+	}
+
+	a:nth-child(4) {
+		stroke: $defaultBlack;
+	}
+
+	circle {
+		fill: $defaultOrange;
+		stroke-width: 4px;
+	}
+}

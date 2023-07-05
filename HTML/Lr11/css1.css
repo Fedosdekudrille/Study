@@ -1,0 +1,19 @@
+root{
+    display: block;
+    background-color: bisque;
+}
+beg{
+    display: block;
+    text-align: start;
+    font-style: italic;
+}
+mid{
+    display: block;
+    text-align: center;
+    font-style: oblique;
+}
+end{
+    display: block;
+    text-align: end;
+    margin-right: 10px;
+}

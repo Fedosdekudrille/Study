@@ -1,0 +1,48 @@
+C:\Study\C#\Spring\DnP — копия\bin\Debug\net7.0-windows\Cup.exe
+C:\Study\C#\Spring\DnP — копия\bin\Debug\net7.0-windows\Cup.deps.json
+C:\Study\C#\Spring\DnP — копия\bin\Debug\net7.0-windows\Cup.runtimeconfig.json
+C:\Study\C#\Spring\DnP — копия\bin\Debug\net7.0-windows\Cup.dll
+C:\Study\C#\Spring\DnP — копия\bin\Debug\net7.0-windows\Cup.pdb
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup.csproj.AssemblyReference.cache
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\App.g.cs
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup_MarkupCompile.cache
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup_MarkupCompile.lref
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\App.baml
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Dictionary.baml
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup.g.resources
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup.AssemblyInfoInputs.cache
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup.AssemblyInfo.cs
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup.csproj.CoreCompileInputs.cache
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup.dll
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\refint\Cup.dll
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup.pdb
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Cup.genruntimeconfig.cache
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\ref\Cup.dll
+C:\Study\C#\Spring\Cup\bin\Debug\net7.0-windows\Cup.exe
+C:\Study\C#\Spring\Cup\bin\Debug\net7.0-windows\Cup.deps.json
+C:\Study\C#\Spring\Cup\bin\Debug\net7.0-windows\Cup.runtimeconfig.json
+C:\Study\C#\Spring\Cup\bin\Debug\net7.0-windows\Cup.dll
+C:\Study\C#\Spring\Cup\bin\Debug\net7.0-windows\Cup.pdb
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup.csproj.AssemblyReference.cache
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\App.g.cs
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup_MarkupCompile.cache
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup_MarkupCompile.lref
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\App.baml
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Dictionary.baml
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup.g.resources
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup.AssemblyInfoInputs.cache
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup.AssemblyInfo.cs
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup.csproj.CoreCompileInputs.cache
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup.dll
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\refint\Cup.dll
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup.pdb
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\Cup.genruntimeconfig.cache
+C:\Study\C#\Spring\Cup\obj\Debug\net7.0-windows\ref\Cup.dll

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="x1.xsl"?>
+<faculty>
+	<specialization>
+        <name>Иван</name>
+		<surname>Иванов</surname>
+		<profession>Сварщик</profession>
+		<hobbies>Вырезание по металлу</hobbies>
+		<salary>2000</salary>
+	</specialization>
+	<specialization>
+		<name>Олег</name>
+		<surname>Денисов</surname>
+		<profession>Менеджер</profession>
+		<hobbies>Компьютер</hobbies>
+		<salary>700</salary>
+	</specialization>
+</faculty>

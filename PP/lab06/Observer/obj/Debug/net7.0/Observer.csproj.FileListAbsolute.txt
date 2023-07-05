@@ -1,0 +1,12 @@
+C:\Study\PP\lab06\Observer\bin\Debug\net7.0\Observer.deps.json
+C:\Study\PP\lab06\Observer\bin\Debug\net7.0\Observer.dll
+C:\Study\PP\lab06\Observer\bin\Debug\net7.0\Observer.pdb
+C:\Study\PP\lab06\Observer\obj\Debug\net7.0\Observer.csproj.AssemblyReference.cache
+C:\Study\PP\lab06\Observer\obj\Debug\net7.0\Observer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\PP\lab06\Observer\obj\Debug\net7.0\Observer.AssemblyInfoInputs.cache
+C:\Study\PP\lab06\Observer\obj\Debug\net7.0\Observer.AssemblyInfo.cs
+C:\Study\PP\lab06\Observer\obj\Debug\net7.0\Observer.csproj.CoreCompileInputs.cache
+C:\Study\PP\lab06\Observer\obj\Debug\net7.0\Observer.dll
+C:\Study\PP\lab06\Observer\obj\Debug\net7.0\refint\Observer.dll
+C:\Study\PP\lab06\Observer\obj\Debug\net7.0\Observer.pdb
+C:\Study\PP\lab06\Observer\obj\Debug\net7.0\ref\Observer.dll

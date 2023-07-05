@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="css1.css"?>
+<!DOCTYPE root[
+<!ELEMENT root (beg, mid, end)>
+<!ELEMENT beg (#PCDATA)>
+<!ELEMENT mid (#PCDATA)>
+<!ELEMENT end (#PCDATA)>
+<!ENTITY name "Середина">
+]>
+<root>
+<beg>Начало</beg>
+<mid>&amp;&name;&amp;</mid>
+<end>Конец</end>
+</root>

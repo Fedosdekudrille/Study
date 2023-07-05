@@ -1,0 +1,97 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Source\cursor.ani" />
+    <None Remove="Source\Images\1.png" />
+    <None Remove="Source\Images\Back.png" />
+    <None Remove="Source\Images\burn.png" />
+    <None Remove="Source\Images\Change.png" />
+    <None Remove="Source\Images\ChangeIcon.png" />
+    <None Remove="Source\Images\Create.png" />
+    <None Remove="Source\Images\CreateIcon.png" />
+    <None Remove="Source\Images\cursor.png" />
+    <None Remove="Source\Images\Destroy.png" />
+    <None Remove="Source\Images\DestroyIcon.png" />
+    <None Remove="Source\Images\foreground.jpg" />
+    <None Remove="Source\Images\Forest%29.jpg" />
+    <None Remove="Source\Images\Forest%29.png" />
+    <None Remove="Source\Images\generation.png" />
+    <None Remove="Source\Images\GenerationScroll.png" />
+    <None Remove="Source\Images\grow.png" />
+    <None Remove="Source\Images\logo.png" />
+    <None Remove="Source\Images\Loop.png" />
+    <None Remove="Source\Images\LoveForever.jpg" />
+    <None Remove="Source\Images\MeAndSomeGuns.png" />
+    <None Remove="Source\Images\Menu.png" />
+    <None Remove="Source\Images\minus.png" />
+    <None Remove="Source\Images\mutate.png" />
+    <None Remove="Source\Images\NoPlant.png" />
+    <None Remove="Source\Images\Nothing.png" />
+    <None Remove="Source\Images\OldPaper.jpg" />
+    <None Remove="Source\Images\Peter.png" />
+    <None Remove="Source\Images\plant.png" />
+    <None Remove="Source\Images\PlantG.png" />
+    <None Remove="Source\Images\PlantGeneration.png" />
+    <None Remove="Source\Images\PlantGenerationIcon.png" />
+    <None Remove="Source\Images\PlantGirl.png" />
+    <None Remove="Source\Images\plantPot.png" />
+    <None Remove="Source\Images\plus.png" />
+    <None Remove="Source\Images\re.jpg" />
+    <None Remove="Source\Images\rost.png" />
+    <None Remove="Source\Images\Scroll.png" />
+    <None Remove="Source\Images\ScrollIcon.png" />
+    <None Remove="Source\Images\SearchSettings.png" />
+    <None Remove="Source\Images\Spooder.png" />
+    <None Remove="Source\Images\spoons.png" />
+    <None Remove="Source\Images\theme.png" />
+    <None Remove="Source\Images\Van.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Source\Images\Back.png" />
+    <Resource Include="Source\Images\Change.png" />
+    <Resource Include="Source\Images\ChangeIcon.png" />
+    <Resource Include="Source\Images\Create.png" />
+    <Resource Include="Source\Images\CreateIcon.png" />
+    <Resource Include="Source\Images\Destroy.png" />
+    <Resource Include="Source\Images\DestroyIcon.png" />
+    <Resource Include="Source\Images\Forest).jpg" />
+    <Resource Include="Source\Images\Forest).png" />
+    <Resource Include="Source\Images\generation.png" />
+    <Resource Include="Source\Images\GenerationScroll.png" />
+    <Resource Include="Source\Images\logo.png" />
+    <Resource Include="Source\Images\Loop.png" />
+    <Resource Include="Source\Images\LoveForever.jpg" />
+    <Resource Include="Source\Images\MeAndSomeGuns.png" />
+    <Resource Include="Source\Images\Menu.png" />
+    <Resource Include="Source\Images\minus.png" />
+    <Resource Include="Source\Images\NoPlant.png" />
+    <Resource Include="Source\Images\Nothing.png" />
+    <Resource Include="Source\Images\OldPaper.jpg" />
+    <Resource Include="Source\Images\Peter.png" />
+    <Resource Include="Source\Images\plant.png" />
+    <Resource Include="Source\Images\PlantGeneration.png" />
+    <Resource Include="Source\Images\PlantGenerationIcon.png" />
+    <Resource Include="Source\Images\PlantG.png" />
+    <Resource Include="Source\Images\PlantGirl.png" />
+    <Resource Include="Source\Images\plantPot.png" />
+    <Resource Include="Source\Images\plus.png" />
+    <Resource Include="Source\Images\re.jpg" />
+    <Resource Include="Source\Images\Scroll.png" />
+    <Resource Include="Source\Images\ScrollIcon.png" />
+    <Resource Include="Source\Images\SearchSettings.png" />
+    <Resource Include="Source\Images\Spooder.png" />
+    <Resource Include="Source\Images\spoons.png" />
+    <Resource Include="Source\Images\theme.png" />
+    <Resource Include="Source\Images\Van.png" />
+    <Resource Include="Source\cursor.ani" />
+  </ItemGroup>
+
+</Project>

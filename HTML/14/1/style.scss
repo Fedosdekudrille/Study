@@ -1,0 +1,13 @@
+$bgColor: #492828;
+$textColor: #968a24;
+
+.topic {
+  padding: 5px;
+  font-size: 36px;
+  text-align: center;
+  background-color: $bgColor;
+}
+
+textPath {
+  fill: $textColor;
+}

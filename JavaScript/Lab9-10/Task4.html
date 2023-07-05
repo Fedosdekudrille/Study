@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>График</title>
+    <style>
+      input {
+        vertical-align: middle;
+        margin: 0;
+      }
+      div {
+        position: absolute;
+      }
+      .border {
+        width: 1000px;
+        height: 700px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label><input type="radio" name="fun" value="1" /> y=x^2</label>
+      <label><input type="radio" name="fun" value="2" /> y=x^3</label>
+      <label><input type="radio" name="fun" value="3" /> y=sin(x)</label>
+      <label><input type="radio" name="fun" value="4" /> y=cos(x)</label>
+      <span>Выберите цвет:</span>
+      <input id="colors" type="color" /><br />
+      <input type="button" value="Построить график" onclick="grafik()" />
+    </form>
+    <div class="border">
+      <p></p>
+    </div>
+    <script src="script4.js"></script>
+  </body>
+</html>

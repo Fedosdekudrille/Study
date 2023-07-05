@@ -1,0 +1,48 @@
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP.csproj.AssemblyReference.cache
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\App.g.cs
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP_MarkupCompile.cache
+C:\Study\C#\Spring\DnP\bin\Debug\net7.0-windows\DnP.exe
+C:\Study\C#\Spring\DnP\bin\Debug\net7.0-windows\DnP.deps.json
+C:\Study\C#\Spring\DnP\bin\Debug\net7.0-windows\DnP.runtimeconfig.json
+C:\Study\C#\Spring\DnP\bin\Debug\net7.0-windows\DnP.dll
+C:\Study\C#\Spring\DnP\bin\Debug\net7.0-windows\DnP.pdb
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP_MarkupCompile.lref
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP.g.resources
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP.AssemblyInfoInputs.cache
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP.AssemblyInfo.cs
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP.csproj.CoreCompileInputs.cache
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP.dll
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\refint\DnP.dll
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP.pdb
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\DnP.genruntimeconfig.cache
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\ref\DnP.dll
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\App.baml
+C:\Study\C#\Spring\DnP\obj\Debug\net7.0-windows\Dictionary.baml
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP.csproj.AssemblyReference.cache
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\App.g.cs
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP_MarkupCompile.cache
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP_MarkupCompile.lref
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\App.baml
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\Dictionary.baml
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP.g.resources
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\refint\DnP.dll
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP.pdb
+C:\Study\C#\Spring\DnP — копия\bin\Debug\net7.0-windows\DnP.exe
+C:\Study\C#\Spring\DnP — копия\bin\Debug\net7.0-windows\DnP.deps.json
+C:\Study\C#\Spring\DnP — копия\bin\Debug\net7.0-windows\DnP.runtimeconfig.json
+C:\Study\C#\Spring\DnP — копия\bin\Debug\net7.0-windows\DnP.dll
+C:\Study\C#\Spring\DnP — копия\bin\Debug\net7.0-windows\DnP.pdb
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP.AssemblyInfoInputs.cache
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP.AssemblyInfo.cs
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP.csproj.CoreCompileInputs.cache
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP.dll
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\DnP.genruntimeconfig.cache
+C:\Study\C#\Spring\DnP — копия\obj\Debug\net7.0-windows\ref\DnP.dll

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="facultet.xsl"?>
+<faculty>
+	<specialization>
+		<name>ПОИТ</name>
+		<time>4</time>
+		<exam>матем, физики, русск. яз</exam>
+		<pages>40</pages>
+		<passing>320</passing>
+	</specialization>
+	<specialization>
+		<name>ИСИТ</name>
+		<time>4</time>
+		<exam>матем, физики, русск. яз</exam>
+		<pages>50</pages>
+		<passing>310</passing>
+	</specialization>
+	<specialization>
+		<name>Ком. безопасность</name>
+		<time>4</time>
+		<exam>матем, физики, русск. яз</exam>
+		<pages>60</pages>
+		<passing>300</passing>
+	</specialization>
+	<specialization>
+		<name>ИИ</name>
+		<time>5</time>
+		<exam>матем, физики, русск. яз</exam>
+		<pages>10</pages>
+		<passing>350</passing>
+	</specialization>
+	
+</faculty>

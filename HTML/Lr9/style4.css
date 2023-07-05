@@ -1,0 +1,40 @@
+ul{
+    list-style-type: none;
+    font-size:35px;
+}
+body {
+    display: grid;
+    grid-template-areas:
+    "nav header header"
+    "nav article aside"
+    "footer footer footer";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 30% 1fr 30%;
+    grid-gap: 2em;
+    height: 700px;
+    margin: 0;
+    padding: 2em;
+}
+header, footer, article, nav, div {
+    padding: 20px;
+    background: rgb(45, 192, 45);
+    padding-top: 0px;
+}
+.header {
+    grid-area: header;
+}
+.footer {
+    grid-area: footer;
+}
+.article {
+    grid-area: article;
+}
+.nav {
+    grid-area: nav;
+}
+.aside {
+    grid-area: aside;
+}
+.aside ul li {
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+div {
+    
+    font-size: 50px;
+    color: grey;
+    transition:  color 20s;
+}
+
+div:hover {
+    color:rgb(10, 3, 3);
+}
+.box {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition-timing-function:linear;
+    transition: color;
+}
+
+.box:hover {
+
+    transform: color(yellow);
+}

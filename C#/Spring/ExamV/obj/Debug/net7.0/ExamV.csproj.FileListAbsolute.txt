@@ -1,0 +1,15 @@
+C:\Study\C#\Spring\ExamV\bin\Debug\net7.0\ExamV.exe
+C:\Study\C#\Spring\ExamV\bin\Debug\net7.0\ExamV.deps.json
+C:\Study\C#\Spring\ExamV\bin\Debug\net7.0\ExamV.runtimeconfig.json
+C:\Study\C#\Spring\ExamV\bin\Debug\net7.0\ExamV.dll
+C:\Study\C#\Spring\ExamV\bin\Debug\net7.0\ExamV.pdb
+C:\Study\C#\Spring\ExamV\obj\Debug\net7.0\ExamV.csproj.AssemblyReference.cache
+C:\Study\C#\Spring\ExamV\obj\Debug\net7.0\ExamV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\C#\Spring\ExamV\obj\Debug\net7.0\ExamV.AssemblyInfoInputs.cache
+C:\Study\C#\Spring\ExamV\obj\Debug\net7.0\ExamV.AssemblyInfo.cs
+C:\Study\C#\Spring\ExamV\obj\Debug\net7.0\ExamV.csproj.CoreCompileInputs.cache
+C:\Study\C#\Spring\ExamV\obj\Debug\net7.0\ExamV.dll
+C:\Study\C#\Spring\ExamV\obj\Debug\net7.0\refint\ExamV.dll
+C:\Study\C#\Spring\ExamV\obj\Debug\net7.0\ExamV.pdb
+C:\Study\C#\Spring\ExamV\obj\Debug\net7.0\ExamV.genruntimeconfig.cache
+C:\Study\C#\Spring\ExamV\obj\Debug\net7.0\ref\ExamV.dll

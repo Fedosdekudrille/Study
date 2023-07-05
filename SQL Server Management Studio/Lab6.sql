@@ -1,0 +1,66 @@
+USE UNIVER;
+
+SELECT max(AUDITORIUM_CAPACITY) [Максимальная вместимость], 
+	min(AUDITORIUM_CAPACITY) [Минимальная вместимость],
+	sum(AUDITORIUM_CAPACITY) / COUNT(*) [Средняя вместимость],
+	sum(AUDITORIUM_CAPACITY) [Суммарная вместимость]
+FROM AUDITORIUM;
+
+SELECT AUDITORIUM_TYPE.AUDITORIUM_TYPE,
+	max(AUDITORIUM_CAPACITY) [Максимальная вместимость], 
+	min(AUDITORIUM_CAPACITY) [Минимальная вместимость],
+	sum(AUDITORIUM_CAPACITY) / COUNT(*) [Средняя вместимость],
+	sum(AUDITORIUM_CAPACITY) [Суммарная вместимость],
+	COUNT(*) Количество
+FROM AUDITORIUM INNER JOIN AUDITORIUM_TYPE
+ON AUDITORIUM.AUDITORIUM_TYPE = AUDITORIUM_TYPE.AUDITORIUM_TYPE GROUP BY AUDITORIUM_TYPE.AUDITORIUM_TYPE;
+
+SELECT * 
+	FROM(select case
+	when NOTE = 10 then '10'
+	when NOTE between 8 and 9 then '8-9'
+	when NOTE between 6 and 7 then '6-7'
+	when NOTE between 4 and 5 then '4-5'
+	else '<4'
+	end Оценки, COUNT(*) Количество
+		FROM PROGRESS Group by case
+		when NOTE = 10 then '10'
+		when NOTE between 8 and 9 then '8-9'
+		when NOTE between 6 and 7 then '6-7'
+		when NOTE between 4 and 5 then '4-5'
+		else '<4'
+		end) AS T
+ORDER BY Case Оценки
+	when '10' then 1
+	when '8-9' then 2
+	when '6-7' then 3
+	when '4-5' then 4
+	else 5
+	end;
+
+SELECT FACULTY.FACULTY Факультет, GROUPS.PROFESSION Профессия, 1996 - YEAR(STUDENT.BDAY) Курс,
+round(avg(cast(PROGRESS.NOTE as float(4))), 2) Оценка, PROGRESS.SUBJECT Предмет
+FROM PROGRESS INNER JOIN STUDENT ON PROGRESS.IDSTUDENT = STUDENT.IDSTUDENT
+INNER JOIN GROUPS ON STUDENT.IDGROUP = GROUPS.IDGROUP
+INNER JOIN FACULTY ON FACULTY.FACULTY = GROUPS.FACULTY
+Where PROGRESS.SUBJECT IN('СУБД', 'ОАиП')
+GROUP BY
+FACULTY.FACULTY,
+PROGRESS.SUBJECT,
+GROUPS.PROFESSION,
+YEAR(STUDENT.BDAY)
+ORDER BY Оценка DESC;
+
+SELECT FACULTY.FACULTY, GROUPS.PROFESSION Специальность, PROGRESS.SUBJECT Дисциплины, avg(PROGRESS.NOTE) [Средняя оценка]
+FROM FACULTY INNER JOIN GROUPS ON FACULTY.FACULTY = GROUPS.FACULTY
+INNER JOIN STUDENT ON STUDENT.IDGROUP = GROUPS.IDGROUP
+INNER JOIN PROGRESS ON PROGRESS.IDSTUDENT = STUDENT.IDSTUDENT
+WHERE FACULTY.FACULTY = 'ИТ'
+GROUP BY GROUPS.PROFESSION, PROGRESS.SUBJECT, FACULTY.FACULTY
+
+SELECT p1.SUBJECT Дисциплина, p1.NOTE Оценка,(select COUNT(*) from PROGRESS p2
+									where p2.SUBJECT = p1.SUBJECT AND
+									p2.NOTE in(8,9)) [Количество студентов с оценкоё 8-9]
+FROM PROGRESS p1
+GROUP BY p1.SUBJECT, p1.NOTE
+HAVING p1.NOTE in(8,9);

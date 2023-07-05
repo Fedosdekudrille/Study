@@ -1,0 +1,137 @@
+﻿html {
+    margin-top: 10px;
+}
+
+p span:nth-child(1) {
+    border: outset 8px red;
+}
+
+p span:nth-child(2) {
+    border: dashed 8px rgb(0, 207, 0);
+}
+
+p span:nth-child(3) {
+    border: dotted 8px blue;
+}
+
+p span:nth-child(4) {
+    border: double 8px rgb(0, 204, 255);
+}
+
+p span:nth-child(5) {
+    border: groove 8px rgb(255, 0, 221);
+}
+
+p span:nth-child(6) {
+    border: inset 8px yellow;
+}
+
+p span:nth-child(7) {
+    border: solid 8px black;
+}
+
+span {
+    margin: 10px 2px;
+    padding: 10px;
+    font-size: 20pt;
+}
+
+.textinbox {
+    font-size: 20pt;
+    border: solid 8px yellow;
+    padding: 40px;
+    width: 25%;
+    margin-top: 50px;
+}
+
+.ex2 {
+    margin: 5px;
+    padding: 5px;
+    background-color: #FFA500;
+    border: solid #FF4500;
+}
+
+    .ex2 p:nth-child(1) {
+        width: 400px;
+        margin: auto;
+        border: solid #FF7F50;
+    }
+
+    .ex2 p:nth-child(2) {
+        border: solid 5px red;
+        border-radius: 20px/40px;
+        box-shadow: inset 20px 2px 8px 8px rgba(0,0,0,.5);
+        overflow: auto;
+    }
+
+    .ex2 p:nth-child(3) {
+        border: solid #FF6347;
+    }
+
+.ex3 p:nth-child(1) {
+    border-style: solid;
+    border-width: 3px;
+    border-left-color: brown;
+    border-top-color: orange;
+    border-bottom-color: yellow;
+    border-right-color: darkblue;
+    width: fit-content;
+}
+
+.ex3 p:nth-child(2) {
+    border: solid black;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    width: fit-content;
+}
+
+.ex3 p:nth-child(3) {
+    border-top-color: rgb(229 43 80);
+    border-top-style: solid;
+    border-left: dashed blue;
+    border-right: dashed blue;
+    border-bottom: dashed blue;
+    width: fit-content;
+}
+
+.ex3 p:nth-child(4) {
+    border: dotted 1px orange;
+    width: fit-content;
+}
+
+.ex3 p:nth-child(5) {
+    border-top: solid 2px darkblue;
+    border-bottom: solid 2px darkblue;
+    border-right: dashed 2px darkred;
+    border-left: dashed 2px darkred;
+    width: fit-content;
+}
+
+.ex3 p:nth-child(6) {
+    border: double #B3446C;
+    width: fit-content;
+}
+
+.ex3 p:nth-child(7) {
+    border-top: dashed 1px #808000;
+    border-bottom: solid 3px #FF7518;
+    width: fit-content;
+}
+
+.ex3 P:nth-child(8) {
+    border-left: double #CC7722;
+    border-bottom: double #CC7722;
+    width: fit-content;
+}
+
+.ex3 p:nth-child(9) {
+    border-right: groove #B5A642;
+    border-top: groove #B5A642;
+    width: fit-content;
+}
+
+.ex3 p:nth-child(10) {
+    border: dotted 5px rgb(0 40 0);
+    border-top-width: 0px;
+    width: fit-content;
+}

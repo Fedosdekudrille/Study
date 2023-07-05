@@ -1,0 +1,18 @@
+Папки на диске:
+C:\$Recycle.Bin  C:\$SysReset  C:\$WINDOWS.~BT  C:\$Windows.~WS  
+C:\$WinREAgent  C:\@RestoreQuarantine  C:\Config  C:\Documents and Settings  
+C:\ESD  C:\eSupport  C:\Games  C:\ImportantThings  C:\Intel  
+C:\interface  C:\Microsoft VS Code  C:\OneDriveTemp  C:\PerfLogs  
+C:\Program Files  C:\Program Files (x86)  C:\ProgramData  
+C:\Python310  C:\Recovery  C:\Riot Games  C:\SQL2019  C:\Study  
+C:\System Volume Information  C:\Users  C:\Windows  C:\Windows Kits  
+C:\XboxGames  C:\Музыка  
+
+Файлы на диске:
+C:\.GamingRoot  C:\DumpStack.log  C:\DumpStack.log.tmp  C:\GetDeviceCap.xml  
+C:\GetDeviceStatus.xml  C:\hiberfil.sys  C:\Hothtrooper44_ArmorCompilation.esp  
+C:\msdia80.dll  C:\pagefile.sys  C:\QueryAllDevice.xml  C:\SetMatrixLEDScript.xml  
+C:\swapfile.sys  C:\_2022-09-26  C:\_2022-09-27  C:\_2022-09-28  
+C:\_2022-09-29  C:\_2022-09-30  C:\_2022-10-01  C:\_2022-10-02  
+C:\_2022-10-03  C:\_2022-10-04  C:\_2022-10-05  C:\_2022-10-19  
+C:\_2022-10-20  

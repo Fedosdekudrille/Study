@@ -1,0 +1,14 @@
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\obj\Debug\netcoreapp3.1\lab01.csproj.AssemblyReference.cache
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\obj\Debug\netcoreapp3.1\lab01.GeneratedMSBuildEditorConfig.editorconfig
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\obj\Debug\netcoreapp3.1\lab01.AssemblyInfoInputs.cache
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\obj\Debug\netcoreapp3.1\lab01.AssemblyInfo.cs
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\obj\Debug\netcoreapp3.1\lab01.csproj.CoreCompileInputs.cache
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\bin\Debug\netcoreapp3.1\lab01.exe
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\bin\Debug\netcoreapp3.1\lab01.deps.json
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\bin\Debug\netcoreapp3.1\lab01.runtimeconfig.json
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\bin\Debug\netcoreapp3.1\lab01.runtimeconfig.dev.json
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\bin\Debug\netcoreapp3.1\lab01.dll
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\bin\Debug\netcoreapp3.1\lab01.pdb
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\obj\Debug\netcoreapp3.1\lab01.dll
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\obj\Debug\netcoreapp3.1\lab01.pdb
+D:\2 курс\2семестр\Паттерны\lab01\lab01\lab01\obj\Debug\netcoreapp3.1\lab01.genruntimeconfig.cache

@@ -1,0 +1,9 @@
+@keyframes Анимация {
+    from {
+        animation-timing-function :linear(5s);
+    }
+    to {
+        /* здесь перечисляются свойства CSS */
+        }
+        }
+            

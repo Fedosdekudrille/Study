@@ -1,0 +1,178 @@
+img{
+  width: 370px;
+}
+#ui{
+  position: fixed;
+  margin-left: 1700px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+    width:200px;
+    background-color: grey;
+    border: 2px green;
+    margin-top: 0px;
+    line-height: 50px;
+    }
+}
+li{
+  text-decoration: none;
+}
+.ui
+{
+  padding-top: 20px;
+}
+ul.nav a {
+display: block;
+}
+   }
+p{
+  perspective: 100px;
+  perspective-origin: center;
+  display: block;
+}
+#pic1:hover{
+  transform: scale(0.5);
+}
+#pic2{
+  transform: rotate(45deg);
+}
+#pic3{
+  transform: translate(50px, 0px);
+}
+#pic4:hover{
+  transform: skewY(-20deg);
+}
+#pic5{
+  transform: rotateY(5deg);
+}
+#pic6{
+  transform: rotateY(10deg);
+}
+#pic7{
+  transform: rotateX(10deg);
+}
+#pic8{
+  transform: rotateY(-5deg);
+}
+.octopus{
+  width:700px;
+  height:700px;
+  font-size: 2em;
+}
+div{
+  width: 3000px;
+  height: 500px;
+  color: yellow;
+  transition: color 20s linear;
+}
+div:hover{
+  color: green;
+}
+#anime{
+  animation-name: aboba;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+}
+@keyframes aboba {
+0%{
+  background-image: url(1.jpg);
+}
+25%{
+  background-image: url(2.jpg);
+}
+50%{
+  background-image: url(3.jpg);
+}
+75%{
+  background-image: url(4.jpg);
+  background-size: 500px 300px;
+}
+100%{
+  background-image: url(i.jpg);
+  background-size: 1000px 500px;
+}
+}
+#right{
+  animation-name: right;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+  width: 1000px;
+}
+@keyframes right {
+  from{right: 400px;}
+  to{right: 0px;}
+}
+#top{
+  animation-name: top;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes top {
+  from{left: -75px; top: 400px;}
+  to{left: -75px; top: -140px;}
+}
+#pro{
+  animation-name: pro;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes pro {
+  from{right: 0px; top: 0px;}
+  to{right: 3500px; top: -300px;}
+}
+#sq{
+  animation-name: sq;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes sq {
+  0%{top: 0px; left: 0px;}
+  25%{top: -300px; left: 0;}
+  50%{top: -300px; left: -700px;}
+  75%{top: 0; left: -700px;}
+  100%{top: 0px; left: 0px;}
+}
+h1{
+  margin-bottom: 0px;
+  text-align: center;
+  color: green;
+}
+@keyframes zag {
+  from{opacity: 0%;}
+  to{opacity:80%;}
+}
+#a:link{
+    color: red;
+}
+#b:visited{
+    color: #8B0000;
+}
+#c:hover{
+    color: green;
+}
+#d:active{
+    color: rgb(84, 134, 11);
+}
+a{
+  text-decoration: none;
+}
+nav li { float: left; }
+nav li{float: left;
+    list-style-type: none;}
+nav a {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 15px 10px 15px;
+    background-color: yellow;
+    text-decoration: none;
+    color: green;
+}

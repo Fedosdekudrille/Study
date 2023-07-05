@@ -1,0 +1,14 @@
+div{
+  display: auto;
+  border: black solid;
+  padding: 20px;
+}
+.men{
+  list-style-type: none;
+}
+.h{
+  display: none;
+}
+ol:hover .h{
+  display: block;
+}

@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:DnP">
+    <local:Dictionary x:Key="DictionaryInstance"/>
+    <local:Plant x:Key="PlantInstance"/>
+    <local:GenerationParams x:Key="GenerationInstance"/>
+</ResourceDictionary>

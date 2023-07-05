@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="attestation.xsl"?>
+<attestation>
+	<student>
+		<name>Евгений</name>
+		<surname>Корп</surname>
+		<score>10</score>
+		<attendance>100</attendance>
+	</student>
+	<student>
+		<name>Евгений</name>
+		<surname>Батиков</surname>
+		<score>2</score>
+		<attendance>100</attendance>
+	</student>
+	<student>
+		<name>Дмитрий</name>
+		<surname>Донской</surname>
+		<score>6</score>
+		<attendance>50</attendance>
+	</student>
+	<student>
+		<name>Виталий</name>
+		<surname>Цаль</surname>
+		<score>9</score>
+		<attendance>80</attendance>
+	</student>
+	<student>
+		<name>Давид</name>
+		<surname>Городенский</surname>
+		<score>4</score>
+		<attendance>90</attendance>
+	</student>
+</attestation>

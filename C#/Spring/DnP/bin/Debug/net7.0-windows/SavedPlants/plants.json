@@ -1,0 +1,34 @@
+[
+  {
+    "Name": "aboba",
+    "Rarity": "3",
+    "Features": "\u002B1",
+    "Description": "good, very well",
+    "Locations": [
+      "Heels",
+      "Valley"
+    ],
+    "ImagePath": null
+  },
+  {
+    "Name": "asdf",
+    "Rarity": "2",
+    "Features": "11",
+    "Description": "fdsa",
+    "Locations": [
+      "Coast"
+    ],
+    "ImagePath": "asdf.png"
+  },
+  {
+    "Name": "bb",
+    "Rarity": "3",
+    "Features": "ddd",
+    "Description": "bb",
+    "Locations": [
+      "Ice",
+      "Swamp"
+    ],
+    "ImagePath": null
+  }
+]

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://ajax.googleapis
+         .com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css"
+    />
+
+    <style>
+      #image {
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img id="image" src="car.png" width="400px" />
+    </div>
+
+    <script>
+      z = 235 + 250 * Math.sin((2 * Math.PI) / 180) + "px";
+      $("#image").css("left", z);
+      z = 235 + 250 * Math.cos((2 * Math.PI) / 180) + "px";
+      $("#image").css("top", z);
+      $("#image").click(function () {
+        setInterval(move, 10);
+      });
+
+      var f = 0;
+
+      function move() {
+        let z = 0;
+        f += (2 * Math.PI) / 180;
+        z = 235 + 250 * Math.sin(f) + "px";
+        $("#image").css("left", z);
+        z = 235 + 250 * Math.cos(f) + "px";
+        $("#image").css("top", z);
+      }
+    </script>
+  </body>
+</html>

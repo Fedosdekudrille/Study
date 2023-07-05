@@ -1,0 +1,15 @@
+C:\Study\C#\Spring\Exam\bin\Debug\net7.0\Exam.exe
+C:\Study\C#\Spring\Exam\bin\Debug\net7.0\Exam.deps.json
+C:\Study\C#\Spring\Exam\bin\Debug\net7.0\Exam.runtimeconfig.json
+C:\Study\C#\Spring\Exam\bin\Debug\net7.0\Exam.dll
+C:\Study\C#\Spring\Exam\bin\Debug\net7.0\Exam.pdb
+C:\Study\C#\Spring\Exam\obj\Debug\net7.0\Exam.csproj.AssemblyReference.cache
+C:\Study\C#\Spring\Exam\obj\Debug\net7.0\Exam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\C#\Spring\Exam\obj\Debug\net7.0\Exam.AssemblyInfoInputs.cache
+C:\Study\C#\Spring\Exam\obj\Debug\net7.0\Exam.AssemblyInfo.cs
+C:\Study\C#\Spring\Exam\obj\Debug\net7.0\Exam.csproj.CoreCompileInputs.cache
+C:\Study\C#\Spring\Exam\obj\Debug\net7.0\Exam.dll
+C:\Study\C#\Spring\Exam\obj\Debug\net7.0\refint\Exam.dll
+C:\Study\C#\Spring\Exam\obj\Debug\net7.0\Exam.pdb
+C:\Study\C#\Spring\Exam\obj\Debug\net7.0\Exam.genruntimeconfig.cache
+C:\Study\C#\Spring\Exam\obj\Debug\net7.0\ref\Exam.dll
